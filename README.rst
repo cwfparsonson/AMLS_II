@@ -24,7 +24,7 @@ cloned this project, install the required packages by running::
 
     $ python -m pip install -r requirements.txt
 
-To test that your packages have installed correctly, open `Day3/Day3_MLP/DAY3_MLP.ipynb` 
+To test that your packages have installed correctly, open `Day3/Day3_MLP/Day3_MLP.ipynb` 
 in a Jupyter Notebook and try to run the cells.
 
 If everything has been correctly installed, you should be able to run all Jupyter Notebook
