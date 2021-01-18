@@ -44,8 +44,8 @@ The following issues have previously been encountered and resolved:
   you may need to run ``python -m ipkykernel install --user --name <env_name> --display-name "<env_name>"``
   so that you can select your ``<env_name>`` in the Jupyter Notebook under Kernel -> Change kernel -> ``<env_name>``.
 
-- **Linux memory errors**: If you are partitioning your drive to run Linux, you may encountary tmp memory errors
+- **Linux memory errors**: If you are partitioning your drive to run Linux, you may encounter tmp memory errors
   when installing the ``requirements.txt`` file. To solve this, you will need to free up swap memory
   on your Linux machine so the packages can be installed: https://askubuntu.com/questions/178712/how-to-increase-swap-space
 
-If you have any issues, please post your questions on the Moodle forum: https://moodle.ucl.ac.uk/course/view.php?id=20557
+If you have any questions or issues, please do not hesitate to post on the Moodle forum: https://moodle.ucl.ac.uk/course/view.php?id=20557
