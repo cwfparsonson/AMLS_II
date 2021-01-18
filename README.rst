@@ -34,14 +34,14 @@ Issues
 ------
 The following issues have previously been encountered and resolved:
 
-- **Problems with `dlib`**: For ``dlib==19.16.0`` to install, you may need to separately install ``cmake``
+- **Problems with dlib**: For ``dlib==19.16.0`` to install, you may need to separately install ``cmake``
   by running ``python -m pip install cmake``. For cmake to work, you may also need to install
   a C++ compiler with ``sudo apt-get install g++`` (Linux). You should then be able to run
   ``python -m pip install dlib==19.16.0``
 
 - **Jupyter accessing environment**: For your environment to be selectable as a kernel in Jupyter Notebook, once you
   have installed the required packages into your virtual environment called ``<env_name>``,
-  you may need to run ``python -m ipkykernel install --user --name <env_name> --display-name "<env_display_name>"``
+  you may need to run ``python -m ipkykernel install --user --name <env_name> --display-name "<env_name>"``
   so that you can select your ``<env_name>`` in the Jupyter Notebook under Kernel -> Change kernel -> ``<env_name>``.
 
 - **Linux memory errors**: If you are partitioning your drive to run Linux, you may encountary tmp memory errors
