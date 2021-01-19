@@ -5,7 +5,7 @@ This code is for use within the UCL Electronic Engineering AMLS II module (ELEC0
 
 Setup
 -----
-Open Git Bash. Change the current working directory to the location where you wants to
+Open Git Bash. Change the current working directory to the location where you want to
 clone this GitHub project, and run::
 
     $ git clone https://github.com/cwfparsonson/AMLS_II
