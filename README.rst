@@ -48,4 +48,6 @@ The following issues have previously been encountered and resolved:
   when installing the ``requirements.txt`` file. To solve this, you will need to free up swap memory
   on your Linux machine so the packages can be installed: https://askubuntu.com/questions/178712/how-to-increase-swap-space
 
-If you have any questions or issues, please do not hesitate to post on the Moodle forum: https://moodle.ucl.ac.uk/course/view.php?id=20557
+If you have any questions or issues, please do not hesitate to raise a GitHub issue 
+on this AMLS_II repository. To raise an issue, at the top of the window at https://github.com/cwfparsonson/AMLS_II,
+go to Issues -> New issue, and fill out your post. We will answer your issues/questions ASAP.
