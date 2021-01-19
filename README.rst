@@ -35,7 +35,7 @@ Issues
 The following issues have previously been encountered and resolved:
 
 - **Problems with dlib**: For ``dlib==19.16.0`` to install, you may need to separately install ``cmake``
-  by running ``python -m pip install cmake``. For cmake to work, you may also need to install
+  by running ``python -m pip install cmake``. For ``cmake`` to work, you may also need to install
   a C++ compiler with ``sudo apt-get install g++`` (Linux). You should then be able to run
   ``python -m pip install dlib==19.16.0``
 
