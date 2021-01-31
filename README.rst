@@ -24,13 +24,13 @@ cloned this project, install the required packages by running::
 
     $ python -m pip install -r requirements.txt
 
-To test that your packages have installed correctly, open ``Day3/Day3_MLP/Day3_MLP.ipynb``
+To test that your packages have installed correctly, open ``Lab1/Lab1_MLP/lab1_MLP.ipynb``
 in a Jupyter Notebook and try to run the cells.
 
 If everything has been correctly installed, you should be able to run all Jupyter Notebook
 scripts in each of the folders.
 
-**Note that if you are using windows, please uncomment line 112 in Day3/Day3_MLP/lab3_data.py**
+**Note that if you are using windows, please uncomment line 112 in Lab1/Lab1_MLP/lab3_data.py**
 
 Issues
 ------
