@@ -35,10 +35,10 @@ cloned this project, install the required packages by running::
         pip install seaborn==0.7.1
         pip install pydot==1.4.1
     
-For Lab2:
-    pip install tensorflow==1.12.0
-    pip install keras==2.2.4
-    pip install dask --upgrade
+    For Lab2:
+        pip install tensorflow==1.12.0
+        pip install keras==2.2.4
+        pip install dask --upgrade
 
 To test that your packages have installed correctly, open ``Lab1/Lab1_MLP/lab1_MLP.ipynb``
 in a Jupyter Notebook and try to run the cells.
