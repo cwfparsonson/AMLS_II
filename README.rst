@@ -6,7 +6,7 @@ This code is for use within the UCL Electronic Engineering AMLS II module (ELEC0
 Setup
 -----
 
-###**If using Anaconda virtual environment manager to run the code, do the following steps:**###
+###If using Anaconda virtual environment manager to run the code, do the following steps:###
 
 Download Git using the following link::
 
