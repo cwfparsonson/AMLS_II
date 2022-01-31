@@ -5,19 +5,20 @@ This code is for use within the UCL Electronic Engineering AMLS II module (ELEC0
 
 Setup
 -----
-Open Git Bash. Change the current working directory to the location where you want to
+
+**If using Anaconda virtual environment manager to run the code, do the following steps:**
+
+Download Git using the following link:
+https://git-scm.com/downloads
+
+Change the current working directory to the location where you want to
 clone this GitHub project, and run::
 
-    $ git clone https://github.com/cwfparsonson/AMLS_II
-
-It is recommended that you run this project in a virtual environment. A good virtual
-environment manager is Anaconda: https://anaconda.org/
-
-**Your environment or machine must be using Python 3.6**
+    git clone https://github.com/cwfparsonson/AMLS_II
 
 If you have installed Anaconda, you can create a new environment with Python 3.6 called amls2 by running::
 
-    $ conda create --name amls2 python=3.6
+    conda create --name amls2 python=3.6
 
 In your Python 3.6 environment or machine, from the route directory of where you
 cloned this project, install the required packages by running::
@@ -29,6 +30,14 @@ in a Jupyter Notebook and try to run the cells.
 
 If everything has been correctly installed, you should be able to run all Jupyter Notebook
 scripts in each of the folders.
+
+**If using Jupyter Online to run the code, do the following steps:**
+
+In the first cell, clone this GitHub project, and run::
+
+    !git clone https://github.com/cwfparsonson/AMLS_II
+    
+Open the binder folder and open the .ipynb file you want to run.
 
 **Note that if you are using windows, please uncomment line 112 in Lab1/Lab1_MLP/lab3_data.py**
 
