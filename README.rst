@@ -23,10 +23,6 @@ If you have installed Anaconda, you can create a new environment with Python 3.6
 In your Python 3.6 environment or machine, from the route directory of where you
 cloned this project, install the required packages by running::
 
-For Lab1 - MLP::
-    pip install tensorflow==1.12.0
-    pip install keras==2.2.4
-    pip install opencv-python
     conda install -c conda-forge dlib
     
  For Lab1 - MoE::
