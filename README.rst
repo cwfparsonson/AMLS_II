@@ -56,24 +56,24 @@ Open the binder folder and open the .ipynb file you want to run.
 
 Now, in a new cell at the top of the code, run the following lines to install the needed packages::
     
-For Lab1 - MLP::
-    !pip install tensorflow==1.12.0
-    !pip install keras==2.2.4
-    !pip install opencv-python
-    !pip install opencv-python-headless
-    !conda install -y -c conda-forge dlib
+    For Lab1 - MLP:
+        !pip install tensorflow==1.12.0
+        !pip install keras==2.2.4
+        !pip install opencv-python
+        !pip install opencv-python-headless
+        !conda install -y -c conda-forge dlib
     
- For Lab1 - MoE::
-    !pip install tensorflow==1.12.0
-    !pip install keras==2.2.4
-    !pip install seaborn
-    !pip install pydot==1.4.1
-    !pip install 'h5py==2.10.0' --force-reinstall
+    For Lab1 - MoE:
+        !pip install tensorflow==1.12.0
+        !pip install keras==2.2.4
+        !pip install seaborn
+        !pip install pydot==1.4.1
+        !pip install 'h5py==2.10.0' --force-reinstall
     
-For Lab2::
-    !pip install tensorflow==1.12.0
-    !pip install keras==2.2.4
-    !pip install dask --upgrade
+    For Lab2:
+        !pip install tensorflow==1.12.0
+        !pip install keras==2.2.4
+        !pip install dask --upgrade
 
 
 **Note that if you are using windows, please uncomment line 112 in Lab1/Lab1_MLP/lab3_data.py**
