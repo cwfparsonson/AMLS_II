@@ -8,8 +8,9 @@ Setup
 
 **If using Anaconda virtual environment manager to run the code, do the following steps:**
 
-Download Git using the following link:
-https://git-scm.com/downloads
+Download Git using the following link::
+
+    https://git-scm.com/downloads
 
 Change the current working directory to the location where you want to
 clone this GitHub project, and run::
