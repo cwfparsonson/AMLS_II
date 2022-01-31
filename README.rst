@@ -47,7 +47,7 @@ in a Jupyter Notebook and try to run the cells.
 If everything has been correctly installed, you should be able to run all Jupyter Notebook
 scripts in each of the folders.
 
-
+**Note that if you are using windows, please uncomment line 112 in Lab1/Lab1_MLP/lab3_data.py**
 
 **If using Jupyter Online to run the code, do the following steps:**
 
