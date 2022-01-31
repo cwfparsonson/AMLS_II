@@ -47,6 +47,8 @@ in a Jupyter Notebook and try to run the cells.
 If everything has been correctly installed, you should be able to run all Jupyter Notebook
 scripts in each of the folders.
 
+
+
 **If using Jupyter Online to run the code, do the following steps:**
 
 In the first cell, clone this GitHub project, and run::
