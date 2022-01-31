@@ -23,19 +23,19 @@ If you have installed Anaconda, you can create a new environment with Python 3.6
 In your Python 3.6 environment or machine, from the route directory of where you
 cloned this project, install the required packages by running::
 
-For Lab1 - MLP:
+For Lab1 - MLP::
     pip install tensorflow==1.12.0
     pip install keras==2.2.4
     pip install opencv-python
     conda install -c conda-forge dlib
     
- For Lab1 - MoE:
+ For Lab1 - MoE::
     pip install tensorflow==1.12.0
     pip install keras==2.2.4
     pip install seaborn==0.7.1
     pip install pydot==1.4.1
     
-For Lab2:
+For Lab2::
     pip install tensorflow==1.12.0
     pip install keras==2.2.4
     pip install dask --upgrade
@@ -56,21 +56,21 @@ Open the binder folder and open the .ipynb file you want to run.
 
 Now, in a new cell at the top of the code, run the following lines to install the needed packages::
     
-For Lab1 - MLP:
+For Lab1 - MLP::
     !pip install tensorflow==1.12.0
     !pip install keras==2.2.4
     !pip install opencv-python
     !pip install opencv-python-headless
     !conda install -y -c conda-forge dlib
     
- For Lab1 - MoE:
+ For Lab1 - MoE::
     !pip install tensorflow==1.12.0
     !pip install keras==2.2.4
     !pip install seaborn
     !pip install pydot==1.4.1
     !pip install 'h5py==2.10.0' --force-reinstall
     
-For Lab2:
+For Lab2::
     !pip install tensorflow==1.12.0
     !pip install keras==2.2.4
     !pip install dask --upgrade
