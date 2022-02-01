@@ -27,6 +27,7 @@ cloned this project, install the required packages by running::
     For Lab1 - MLP:
         pip install tensorflow==1.12.0
         pip install keras==2.2.4
+        pip install pillow
         pip install opencv-python
         conda install -c conda-forge dlib
     
@@ -38,7 +39,7 @@ cloned this project, install the required packages by running::
     
     For Lab2:
         pip install tensorflow==1.12.0
-        pip install keras==2.2.4
+        pip install matplotlib
         pip install dask --upgrade
 
 To test that your packages have installed correctly, open ``Lab1/Lab1_MLP/lab1_MLP.ipynb``
@@ -62,6 +63,7 @@ Now, in a new cell at the top of the code, run the following lines to install th
     For Lab1 - MLP:
         !pip install tensorflow==1.12.0
         !pip install keras==2.2.4
+        !pip install pillow
         !pip install opencv-python
         !pip install opencv-python-headless
         !conda install -y -c conda-forge dlib
@@ -75,7 +77,7 @@ Now, in a new cell at the top of the code, run the following lines to install th
     
     For Lab2:
         !pip install tensorflow==1.12.0
-        !pip install keras==2.2.4
+        !pip install matplotlib
         !pip install dask --upgrade
 
 
