@@ -1,6 +1,7 @@
 import os
 import numpy as np
 from keras.preprocessing import image
+from keras.utils import img_to_array, load_img
 import cv2
 import dlib
 
@@ -111,8 +112,8 @@ def extract_features_labels():
             file_name= img_path.split('.')[1].split('/')[-1]
             # file_name= img_path.split('.')[1].split('\\')[-1] # if using windows use this line
             # load image
-            img = image.img_to_array(
-                image.load_img(img_path,
+            img = img_to_array(
+                load_img(img_path,
                                target_size=target_size,
                                interpolation='bicubic'))
             features, _ = run_dlib_shape(img)
