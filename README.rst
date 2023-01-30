@@ -5,7 +5,27 @@ This code is for use within the UCL Electronic Engineering AMLS II module (ELEC0
 
 Setup
 -----
+**If using Google Colab to run the code, do the following steps:**
 
+Open the .ipynb file that you would like to run in GitHub. 
+Then, in the URL above, change **github.com** to **githubtocolab.com** and press Enter.
+
+In the first cell, clone this GitHub project, and run::
+
+    !git clone https://github.com/cwfparsonson/AMLS_II
+    
+Go to the directory where the file you initially opened is saved, using %cd.
+
+For example::
+    If you opened the file Lab1_MLP.ipynb initially.
+    You add a code line at the top of the code to clone the repository.
+    Then, you add a new code cell that you use to enter the corresponding directory, %cd AMLS_II/Lab1/Lab1_MLP/
+    
+Now, in a new cell at the top of the code, run the following lines to install the needed packages::
+    
+    For Lab2:
+        !pip install --upgrade tf_slim
+        
 **If using Anaconda virtual environment manager to run the code, do the following steps:**
 
 Download Git using the following link::
